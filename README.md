@@ -1,26 +1,28 @@
-# Dewen Liu — GitHub Pages Personal Website
+# Dewen Liu — Academic Homepage
 
-This is a repository-ready personal academic homepage for GitHub Pages.
+This is a clean academic personal homepage for GitHub Pages.
+
+## Files
+
+```text
+index.html
+styles.css
+script.js
+assets/profile.jpg
+```
 
 ## Deploy
 
-1. Create a public GitHub repository named `YOUR_GITHUB_USERNAME.github.io`.
-2. Upload all files in this folder to the repository root.
-3. Open `https://YOUR_GITHUB_USERNAME.github.io/` after GitHub Pages finishes deployment.
+Upload all files to the root of `ldwww-divesss/dewen.github.io`.
 
-For the user handle `lllll18340`, the recommended repository name is:
+The website should be available at:
 
 ```text
-lllll18340.github.io
+https://ldwww-divesss.github.io/dewen.github.io/
 ```
 
-Then the public URL will be:
+If the repository is renamed to `ldwww-divesss.github.io`, the website will be available at:
 
 ```text
-https://lllll18340.github.io/
+https://ldwww-divesss.github.io/
 ```
-
-## Edit
-
-- Replace links in `index.html` with your Google Scholar, GitHub, OpenReview, or CV links when available.
-- Replace `assets/profile.jpg` to update the portrait.
