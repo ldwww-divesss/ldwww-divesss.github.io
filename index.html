@@ -1,188 +1,56 @@
-<!doctype html>
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Dewen Liu | Fudan University</title>
-  <meta name="description" content="Dewen Liu — undergraduate researcher at Fudan University working on autonomous agents, multi-agent systems, LLMs, and interpretability." />
-  <link rel="stylesheet" href="styles.css" />
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Dewen Liu | 柳德闻</title>
+<meta name="description" content="Dewen Liu, undergraduate researcher at Fudan University and incoming PhD student at Peking University. Agent learning, multi-agent systems, and mechanistic interpretability.">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="styles.css?v=20261103">
 </head>
 <body>
-  <div class="layout">
-    <aside class="sidebar">
-      <img class="portrait" src="assets/profile.jpg" alt="Portrait of Dewen Liu" />
-  <h1>Dewen Liu</h1>
-  <p class="subtitle">
-    Undergraduate Researcher<br>
-    Fudan University
-  </p>
-  <div class="contact">
-    <a href="mailto:dwliu23@m.fudan.edu.cn">
-      Email
-    </a>
-    <a href="https://github.com/ldwww-divesss" target="_blank" rel="noopener">
-      GitHub
-    </a>
-    <a href="#publications">
-      Publications
-    </a>
-    <a href="#honors">
-      Honors & Awards
-    </a>
-  </div>
-  <p class="small">
-    Institute of Intelligent Robotics and Advanced Manufacturing<br>
-    Intelligent Science & Technology, Class of 2023
-  </p>
-</aside>
-<main class="content">
-  <nav class="topnav">
-    <a href="#about">About</a>
-    <a href="#news">News</a>
-    <a href="#research">Research</a>
-    <a href="#publications">Publications</a>
-    <a href="#honors">Honors</a>
-    <a href="#life">Life</a>
-  </nav>
-  <section id="about" class="section hero">
-    <p class="eyebrow">
-      Autonomous Agents · Multi-Agent Systems · LLM Interpretability
-    </p>
-    <h2>Hi, I'm Dewen Liu.</h2>
-    <p>
-      I am an undergraduate researcher at <strong>Fudan University</strong>, majoring in
-      <strong>Intelligent Science and Technology</strong>. My research focuses on
-      autonomous agents, multi-agent systems, large language models, and AI interpretability.
-    </p>
-    <p>
-      Currently, I am working on the scientific evaluation of LLM-based multi-agent systems,
-      agent workflow reconstruction, and mechanistic interpretability for foundation models.
-      My long-term goal is to build AI systems that are not only capable, but also scientifically
-      understandable, controllable, and trustworthy.
-    </p>
-    <div class="notice">
-      I am always happy to meet new friends and collaborators. Feel free to reach out if you are
-      interested in agents, LLMs, multi-agent collaboration, or interpretability.
-    </div>
-  </section>
-  <section id="news" class="section">
-    <h2>News</h2>
-    <ul class="news">
-      <li><span>2026</span> <strong>AgentXRay</strong> was accepted to ICML 2026.</li>
-      <li><span>2026</span> Submitted a NeurIPS 2026 paper on scientific evaluation of LLM-based multi-agent systems.</li>
-      <li><span>2025</span> Won MCM <strong>Outstanding Winner</strong>, SIAM Award, and COMAP Scholarship Award.</li>
-      <li><span>2025</span> Received a Chinese invention patent as the first inventor: CN 120163631 B.</li>
-      <li><span>2024–2025</span> Awarded the National Scholarship for two consecutive years.</li>
-    </ul>
-  </section>
-  <section id="research" class="section">
-    <h2>Research Interests</h2>
-    <div class="interests">
-      <div>
-        <h3>Autonomous Agents</h3>
-        <p>
-          Agent design, tool use, self-improvement, evaluation, and deployment in complex reasoning environments.
-        </p>
-      </div>
-      <div>
-        <h3>Multi-Agent Systems</h3>
-        <p>
-          Scientific evaluation of collaboration, factor-controlled MAS analysis, communication, topology, and coordination.
-        </p>
-      </div>
-      <div>
-        <h3>LLM Interpretability</h3>
-        <p>
-          Feature explanations, causal effects, SAE-based analysis, and agent-assisted diagnosis of model behavior.
-        </p>
-      </div>
-    </div>
-    <h2 class="subhead">Research Experience</h2>
-    <div class="project">
-      <h3>Towards a Science of Collective AI</h3>
-      <p class="meta">Co-first author · Submitted to NeurIPS 2026 · arXiv:2602.05289</p>
-      <p>
-        Developed a scientific evaluation framework for LLM-based multi-agent systems, including a collaboration-gain
-        metric that separates genuine cooperation from resource scaling and a factor library for controlled MAS analysis.
-      </p>
-    </div>
-    <div class="project">
-      <h3>Self-Evolving SAE Feature Explanation System</h3>
-      <p class="meta">First author · Ongoing · Planned submission to AAAI 2027</p>
-      <p>
-        Building a two-sided feature explanation framework that connects input-side SAE activations with output-side
-        causal effects, assisted by self-evolving agents for diagnosis and adaptive optimization.
-      </p>
-    </div>
-    <div class="project">
-      <h3>AgentXRay: White-Boxing Agentic Systems via Workflow Reconstruction</h3>
-      <p class="meta">Contributing author · ICML 2026</p>
-      <p>
-        Contributed to discussions and experiments for reconstructing black-box agent workflows into editable white-box
-        systems using combinatorial search over agent roles, models, reasoning modes, and tools.
-      </p>
-    </div>
-  </section>
-  <section id="publications" class="section">
-    <h2>Selected Publications</h2>
-    <article class="pub">
-      <h3>
-        Towards a Science of Collective AI: LLM-based Multi-Agent Systems Need a Transition from Blind Trial-and-Error to Rigorous Science
-      </h3>
-    <p class="authors">
-  Jingru Fan<sup>*</sup>, <strong>Dewen Liu</strong><sup>*</sup>, Yufan Dang, Huatao Li, Yuheng Wang, Wei Liu, Feiyu Duan,
-  Xuanwen Ding, Shu Yao, Lin Wu, Ruijie Shi, Wai-Shing Leung, Yuan Cheng, Zhongyu Wei, Cheng Yang,
-  Chen Qian, Zhiyuan Liu, Maosong Sun.
-</p>
-<p class="author-note">
-  <sup>*</sup>Equal contribution.
-</p>
-<p class="venue">arXiv:2602.05289 · Submitted to NeurIPS 2026</p>
-    </article>
-    <article class="pub">
-      <h3>AgentXRay: White-Boxing Agentic Systems via Workflow Reconstruction</h3>
-      <p class="authors">
-        Ruijie Shi, Houbin Zhang, Yuecheng Han, Yuheng Wang, Jingru Fan, Runde Yang, Yufan Dang,
-        Huatao Li, <strong>Dewen Liu</strong>, Yuan Cheng, Chen Qian.
-      </p>
-      <p class="venue">ICML 2026</p>
-    </article>
-  </section>
-  <section id="honors" class="section">
-    <h2>Honors & Awards</h2>
-    <ul class="awards">
-      <li><strong>MCM Outstanding Winner</strong>, SIAM Award, and COMAP Scholarship Award, 2025.</li>
-      <li><strong>National Scholarship</strong>, two consecutive years, 2024 and 2025.</li>
-      <li><strong>CUMCM National Second Prize</strong>, 2025.</li>
-      <li><strong>Chinese Invention Patent</strong>, first inventor, CN 120163631 B, 2025.</li>
-      <li><strong>Siyuan Program</strong>, Fudan Excellence Student Training Program.</li>
-      <li><strong>Outstanding Science Popularization Volunteer</strong>, Shanghai municipal level, 2024.</li>
-    </ul>
-  </section>
-  <section id="education" class="section">
-    <h2>Education</h2>
-    <div class="project">
-      <h3>Fudan University</h3>
-      <p class="meta">B.Sc. in Intelligent Science and Technology · 2023–Present</p>
-      <p>
-        GPA: 3.88/4.0; Rank: 1/27. Core coursework includes programming, data structures and algorithms,
-        computer architecture, and statistical learning.
-      </p>
-    </div>
-  </section>
-  <section id="life" class="section">
-    <h2>Beyond Research</h2>
-    <p>
-      Outside research, I enjoy badminton, detective fiction, board games, and meeting people from different
-      backgrounds. I am always open to friendly conversations, research discussions, and new collaborations.
-    </p>
-  </section>
-  <footer>
-    <p>© <span id="year"></span> Dewen Liu.</p>
-  </footer>
+<a class="skip" href="#main-content">Skip to content</a>
+<header class="site-header"><nav class="nav-shell" aria-label="Main navigation"><div class="nav-links"><a href="#home">Home</a><a href="#education">Education</a><a href="#research">Publications</a><a href="#honors">Honors</a><a href="#experience">Experience</a><a href="#about">About Me</a></div></nav></header>
+<main id="main-content" class="homepage page-shell">
+<section id="home" class="profile-section" aria-labelledby="intro-title">
+<div class="profile-text">
+<h1 id="intro-title">Dewen Liu <span lang="zh-CN">柳德闻</span></h1>
+<p>I am an undergraduate in Intelligent Science and Technology at <a href="https://www.fudan.edu.cn/">Fudan University</a>. I will join the School of Intelligence Science and Technology at <a href="https://www.pku.edu.cn/">Peking University</a> as a PhD student in September 2027, advised by Prof. <a href="https://scholar.google.com/citations?user=NyjV-40AAAAJ">Chi Zhang</a>.</p>
+<p>My research interests include agent learning and self-evolution, multi-agent systems, and mechanistic interpretability of large language models.</p>
+<p>I am happy to discuss research and potential collaborations. Please feel free to contact me by email.</p>
+<div class="profile-links"><a href="mailto:dwliu23@m.fudan.edu.cn">Email</a><span>/</span><a href="https://scholar.google.com/citations?user=4NX5JR0AAAAJ">Google Scholar</a><span>/</span><a href="https://github.com/ldwww-divesss">GitHub</a><span>/</span><a href="https://xhslink.cn/o/12GxQIigKc7">RedNote</a></div>
+</div>
+<img class="profile-photo" src="assets/profile-v2.jpg" alt="Dewen Liu" width="1279" height="1706">
+</section>
+<section id="education" class="homepage-section">
+<h2>Education</h2>
+<div class="education-list">
+<article class="education-item"><img class="school-logo" src="assets/pku.svg" width="54" height="54" alt="Peking University seal"><div class="education-detail"><div class="school-top"><h3>Peking University <span lang="zh-CN">北京大学</span></h3><span class="date">Expected Sep 2027</span></div><p>Incoming PhD student, School of Intelligence Science and Technology</p><p>Advisor: <a href="https://scholar.google.com/citations?user=NyjV-40AAAAJ">Chi Zhang</a></p></div></article>
+<article class="education-item"><img class="school-logo" src="assets/fudan.svg" width="54" height="54" alt="Fudan University seal"><div class="education-detail"><div class="school-top"><h3>Fudan University <span lang="zh-CN">复旦大学</span></h3><span class="date">Sep 2023 to present</span></div><p>Undergraduate, Intelligent Science and Technology</p><p><strong>Rank: 1/27</strong>; GPA: 3.88/4.0</p></div></article>
+</div>
+</section>
+<section id="research" class="homepage-section">
+<h2>Selected Publications &amp; Patents</h2>
+<div id="selected-papers-list" class="publication-list"></div>
+</section>
+<section id="honors" class="homepage-section">
+<h2>Honors &amp; Awards</h2>
+<ul class="honors-list">
+<li><strong>National Scholarship, three consecutive years.</strong> <span lang="zh-CN">连续三年国家奖学金。</span></li>
+<li><strong>NSFC Young Student Basic Research Program (Undergraduates), Project Lead</strong>, 2026 to present.<br><span lang="zh-CN">国家自然科学基金青年学生基础研究项目（本科生）主持者。</span><br><span class="secondary">Project: Self-evolution of cross-embodiment systems in open environments. Advisor: <a href="https://scholar.google.com/citations?user=M3Qsb6cAAAAJ">Ziyi Ye</a>.</span></li>
+<li><strong>MCM Outstanding Winner, SIAM Award, and COMAP Scholarship Award</strong>, 2025.<br><strong>(Only one team worldwide per problem receives all three honors.)</strong></li>
+<li>China Undergraduate Mathematical Contest in Modeling (CUMCM), National Second Prize, 2025.</li>
+<li>Fudan University Siyuan Program, 12th cohort.</li>
+</ul>
+</section>
+<section id="experience" class="homepage-section">
+<h2>Experience</h2>
+<article class="experience-item"><div class="school-top"><h3>Asksia</h3><span class="date">Jun to Sep 2025</span></div><p>Agent Development Intern</p><p class="secondary">Worked on AI agents for personalized learning and intelligent tutoring at Asksia.</p></article>
+</section>
+<section id="about" class="homepage-section">
+<h2>About Me</h2>
+<p>Outside research, I enjoy badminton, detective fiction, and board games. I also like meeting people from different backgrounds. You can find me on <a href="https://xhslink.cn/o/12GxQIigKc7">RedNote</a>.</p>
+</section>
 </main>
-  </div>
-  <script src="script.js"></script>
-</body>
-</html>
+<dialog id="figure-dialog" aria-labelledby="figure-title"><button type="button" class="dialog-close" aria-label="Close enlarged figure">Close</button><h2 id="figure-title">Research figure</h2><img id="figure-full" alt=""><p id="figure-credit"></p></dialog>
+<script src="data.js?v=20261103"></script><script src="main.js?v=20261103"></script>
+</body></html>
