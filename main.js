@@ -6,7 +6,7 @@ publications.forEach(p=>{
  const button=document.createElement('button'); button.type='button'; button.className='figure-button';button.setAttribute('aria-label',`Enlarge ${p.name} figure`);
  const img=document.createElement('img');img.src=p.image;img.alt=p.alt;img.loading='lazy';button.append(img);
  figure.append(button);
- button.addEventListener('click',()=>{document.getElementById('figure-full').src=p.image;document.getElementById('figure-full').alt=p.alt;document.getElementById('figure-title').textContent=p.name;document.getElementById('figure-credit').textContent=p.credit;document.getElementById('figure-dialog').showModal();});
+ button.addEventListener('click',()=>{document.getElementById('figure-full').src=p.image;document.getElementById('figure-full').alt=p.alt;document.getElementById('figure-title').textContent=p.name;document.getElementById('figure-dialog').showModal();});
  article.append(figure);
  }
 
