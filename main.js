@@ -14,7 +14,7 @@ publications.forEach(p=>{
 
  const heading=document.createElement('h3');heading.textContent=p.title;content.append(heading);
 
- const meta=document.createElement('div');meta.className='paper-meta';const role=document.createElement('span');role.textContent=p.role;const venue=document.createElement('span');venue.className='venue '+p.status;venue.textContent=p.venue;meta.append(role,document.createTextNode('·'),venue);content.append(meta);
+ const meta=document.createElement('div');meta.className='paper-meta';const role=document.createElement('span');role.textContent=p.role;const venue=document.createElement('span');venue.className='venue '+p.status;venue.textContent=p.venue;meta.append(role);if(p.venue)meta.append(document.createTextNode('·'),venue);content.append(meta);
  const advisors=document.createElement('p');advisors.className='paper-advisors';
  advisors.append(document.createTextNode(p.advisors.length>1?'Advisors: ':'Advisor: '));
  p.advisors.forEach(([name,id],i)=>{if(i)advisors.append(document.createTextNode(', '));const a=document.createElement('a');a.href='https://scholar.google.com/citations?user='+id;a.textContent=name;advisors.append(a);});content.append(advisors);
