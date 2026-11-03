@@ -1,4 +1,4 @@
-// Public research metadata, updated from the CV and author corrections.
+// Public research metadata; paper summaries based on the linked arXiv abstracts.
 const publications = [
   {
     "id": "dafi",
@@ -20,7 +20,7 @@ const publications = [
         "SgNB-ioAAAAJ"
       ]
     ],
-    "description": "An agent that gathers evidence, diagnoses failures, and refines explanations of SAE features from input patterns to output effects.",
+    "description": "Introduces functional interpretation: explaining how the inputs that activate an SAE feature relate to its effects on model outputs. DAFI combines targeted probing with feedback-guided refinement, avoiding full-corpus scans and learning reusable skills that improve interpretation quality and transfer across model-SAE settings.",
     "links": [
       [
         "Paper",
@@ -48,7 +48,7 @@ const publications = [
         "Rnsawl0AAAAJ"
       ]
     ],
-    "description": "Reconstructing editable agent workflows from black-box input-output behavior. I contributed to project discussions and key experiments.",
+    "description": "Turns input-output access to a black-box agentic system into an editable, interpretable stand-in workflow, without access to model parameters. Tree search with quality- and depth-aware pruning finds workflows that better approximate the target system while using fewer tokens than unpruned search.",
     "links": [
       [
         "Paper",
@@ -76,7 +76,7 @@ const publications = [
         "dT0v5u0AAAAJ"
       ]
     ],
-    "description": "A collaboration-gain metric and factor library to distinguish genuine cooperation from improvements caused by additional resources.",
+    "description": "Establishes collaboration gain (Γ) to separate the benefits of agent cooperation from improvements due to larger resource budgets. A structured library of design factors and information dynamics supports systematic attribution of what drives collaboration, providing a scientific basis for multi-agent system design and optimization.",
     "links": [
       [
         "Paper",
