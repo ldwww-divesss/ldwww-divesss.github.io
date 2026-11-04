@@ -94,7 +94,7 @@ const publications = [
     "advisors": [
       [
         "Kai Zhang",
-        "GvuK7z4AAAAJ"
+        "https://kay21s.github.io/"
       ]
     ],
     "description": "A personalized makeup teaching system combining region-specific makeup transfer, recommendations, and video tutorials.",

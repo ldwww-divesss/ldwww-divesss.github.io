@@ -17,7 +17,7 @@ publications.forEach(p=>{
  const meta=document.createElement('div');meta.className='paper-meta';const role=document.createElement('span');role.textContent=p.role;const venue=document.createElement('span');venue.className='venue '+p.status;venue.textContent=p.venue;meta.append(role);if(p.venue)meta.append(document.createTextNode('·'),venue);content.append(meta);
  const advisors=document.createElement('p');advisors.className='paper-advisors';
  advisors.append(document.createTextNode(p.advisors.length>1?'Advisors: ':'Advisor: '));
- p.advisors.forEach(([name,id],i)=>{if(i)advisors.append(document.createTextNode(', '));const a=document.createElement('a');a.href='https://scholar.google.com/citations?user='+id;a.textContent=name;advisors.append(a);});content.append(advisors);
+ p.advisors.forEach(([name,id],i)=>{if(i)advisors.append(document.createTextNode(', '));const a=document.createElement('a');a.href=id.startsWith('https://')?id:'https://scholar.google.com/citations?user='+id;a.textContent=name;advisors.append(a);});content.append(advisors);
  const description=document.createElement('p');description.className='paper-description';description.textContent=p.description;content.append(description);
 
  const links=document.createElement('div');links.className='paper-links';p.links.forEach(([label,url])=>{const a=document.createElement('a');a.href=url;a.textContent='['+label+']';links.append(a);});content.append(links);
